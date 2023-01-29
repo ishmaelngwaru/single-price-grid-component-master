@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins:ital,wght@0,600;1,400&display=swap');
+
+:root{
+    --cyan: hsl(179, 58%, 42%);
+    --cyan2:rgb(37, 223, 220);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --LIght-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+    --white: #ffff;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--LIght-Gray);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 95vh;
+}
+
+.grid-container{
+    border: 1px solid transparent;
+    max-width: 602px;
+    width: 602px;
+    height: 402px;
+    background-color: var(--Grayish-Blue);
+    position: relative;
+    border-radius: 10px;
+    box-shadow:  10px 10px 29px #5a5a5a;
+}
+
+.box1{
+    width: 600px;
+    height: 200px;
+    border: 1px solid var(--white);
+    position:absolute;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--white);
+}
+
+.box2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid var(--cyan);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 0px 0px 10px;
+    background-color: var(--cyan);
+}
+
+.box3{
+    width: 300px;
+    height: 200px;
+    border: 1px solid var(--cyan2);
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0px 0px 10px 0px;
+    background-color: var(--cyan2);
+}
+
+.joinH1{
+   color: var(--cyan);
+   font-size: 1.3em;
+   padding-left: 30px;
+   padding-top: 5px;
+}
+
+.greenh2{
+    color: var(--Bright-Yellow);
+    font-size: 1.1em;
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.paraBox1{
+    color: var(--Grayish-Blue);
+    font-size: 0.8em;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-weight: 100; color: var(--Grayish-Blue);
+    font-size: 0.8em;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+.h3no1{
+    color: var(--white);
+    font-size: 1em;
+    padding-left: 30px;
+    padding-top: 5px;
+    font-weight: 100;
+}
+
+.price{
+    color: var(--white);
+    font-size: 1.6em;
+    padding-left: 30px;
+    padding-top: 0px;
+    font-weight: 100;
+    position: absolute;
+    top: 35px;
+}
+
+span{
+    color:var(--LIght-Gray);
+    font-size: 0.5em;
+    opacity: 0.6;
+}
+
+.parabox2{
+    color: var(--white);
+    font-size: 0.8em;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+button{
+    background-color: var(--Bright-Yellow);
+    color:var(--LIght-Gray);
+    outline: none;
+    border: 1px solid var(--Bright-Yellow);
+    border-radius: 10px;
+    max-width: 300px;
+    width: 250px;
+    height: 50px;
+    padding-left: 5px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+button:hover{
+    background-color: var(--LIght-Gray);
+    color: var(--Bright-Yellow);
+    transition: 1s;
+    border-color: var(--LIght-Gray);
+}
+
+.parabox3{
+    color: lightslategrey;
+    opacity: 0.6;
+    font-size: 0.7em;
+    padding-left: 30px;
+    padding-top: 0px;
+
+}
+
+/* all thats left is making the website responsive for mobile devices*/
