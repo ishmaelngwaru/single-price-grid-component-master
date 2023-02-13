@@ -146,7 +146,7 @@ button:hover{
 }
 
 .parabox3{
-    color: lightslategrey;
+    color: var(--white);
     opacity: 0.6;
     font-size: 0.7em;
     padding-left: 30px;
@@ -154,4 +154,152 @@ button:hover{
 
 }
 
+@media only screen and (min-width: 600px) and (max-width: 667px){
+    .grid-container{
+        border: 1px solid transparent;
+        max-width: 352px;
+        width: 352px;
+        height: 602px;
+        background-color: var(--Grayish-Blue);
+        position: relative;
+        top: 70px;
+        border-radius: 10px;
+        box-shadow:  10px 10px 29px #5a5a5a;
+        margin-bottom: 200px;
+    }
+    
+    .box1{
+        width: 350px;
+        height: 220px;
+        border: 1px solid var(--white);
+        position:absolute;
+        border-radius: 10px 10px 0px 0px;
+        background-color: var(--white);
+    }
+    
+    .box2{
+        width: 350px;
+        height: 190px;
+        border: 1px solid var(--cyan);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0px 0px 10px 10px;
+        background-color: var(--cyan);
+    }
+    
+    .box3{
+        width: 350px;
+        height: 197px;
+        border: 1px solid var(--cyan2);
+        position:absolute;
+        bottom: 181px;
+        right: 0px;
+        border-radius: 0px 0px 0px 0px;
+        background-color: var(--cyan2);
+    }
+    .parabox3{
+        color: var(--white);
+        opacity: 0.6;
+        font-size: 0.7em;
+        padding-left: 30px;
+        padding-top: 0px;
+    
+    }
+    .paraBox1{
+        color: var(--Grayish-Blue);
+        padding-left: 30px;
+        padding-top: 5px;
+        font-weight: 100;
+        font-size: 0.6em;
+    }
+    button{
+        background-color: var(--Bright-Yellow);
+        color:var(--LIght-Gray);
+        outline: none;
+        border: 1px solid var(--Bright-Yellow);
+        border-radius: 10px;
+        max-width: 300px;
+        width: 150px;
+        height: 50px;
+        padding-left: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+}
+@media only screen and (min-width: 500px) and (max-width: 599px){
+    .grid-container{
+        border: 1px solid transparent;
+        max-width: 352px;
+        width: 352px;
+        height: 602px;
+        background-color: var(--Grayish-Blue);
+        position: relative;
+        top: 70px;
+        border-radius: 10px;
+        box-shadow:  10px 10px 29px #5a5a5a;
+        margin-bottom: 200px;
+    }
+    
+    .box1{
+        width: 350px;
+        height: 220px;
+        border: 1px solid var(--white);
+        position:absolute;
+        border-radius: 10px 10px 0px 0px;
+        background-color: var(--white);
+    }
+    
+    .box2{
+        width: 350px;
+        height: 190px;
+        border: 1px solid var(--cyan);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-radius: 0px 0px 10px 10px;
+        background-color: var(--cyan);
+    }
+    
+    .box3{
+        width: 350px;
+        height: 197px;
+        border: 1px solid var(--cyan2);
+        position:absolute;
+        bottom: 181px;
+        right: 0px;
+        border-radius: 0px 0px 0px 0px;
+        background-color: var(--cyan2);
+    }
+    .parabox3{
+        color: var(--white);
+        opacity: 0.6;
+        font-size: 0.7em;
+        padding-left: 30px;
+        padding-top: 0px;
+    
+    }
+    .paraBox1{
+        color: var(--Grayish-Blue);
+        padding-left: 30px;
+        padding-top: 5px;
+        font-weight: 100;
+        font-size: 0.6em;
+    }
+    button{
+        background-color: var(--Bright-Yellow);
+        color:var(--LIght-Gray);
+        outline: none;
+        border: 1px solid var(--Bright-Yellow);
+        border-radius: 10px;
+        max-width: 300px;
+        width: 150px;
+        height: 50px;
+        padding-left: 5px;
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+}
 /* all thats left is making the website responsive for mobile devices*/
